@@ -47,8 +47,8 @@ using namespace protoson;
 dynamic_memory_allocator alloc;
 memory_allocator& protoson::pool = alloc;
 
-#define THINGER_SERVER "iot.thinger.io"
-#define THINGER_PORT 25200
+#define THINGER_SERVER "yamibr.proxy.beeceptor.com"
+#define THINGER_PORT 80
 #define RECONNECTION_TIMEOUT_SECONDS 15
 
 class thinger_client : public thinger::thinger {
